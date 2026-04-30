@@ -73,4 +73,4 @@ NODE_ENV=production
 ### Submission
 
 - Live URL: Add your Railway URL here after deployment.
-- GitHub repo: Add your GitHub repository URL here.
+- GitHub repo: https://github.com/missaarohi/Team-Task-Manager
