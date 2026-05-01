@@ -4,14 +4,20 @@ import { useAuth } from '../context/AuthContext.jsx';
 
 const Layout = () => {
   const { user, logout } = useAuth();
+  const userInitials = user?.name
+    ?.split(' ')
+    .map((part) => part[0])
+    .join('')
+    .slice(0, 2)
+    .toUpperCase();
 
   return (
     <div className="app-shell">
       <aside className="sidebar">
         <div className="brand">
-          <div className="brand-mark">TT</div>
+          <div className="brand-mark">{userInitials || 'U'}</div>
           <div>
-            <strong>Team Tasks</strong>
+            <strong>{user?.name || 'User'}</strong>
             <span>{user?.role}</span>
           </div>
         </div>
