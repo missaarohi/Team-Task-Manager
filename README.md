@@ -72,5 +72,5 @@ NODE_ENV=production
 
 ### Submission
 
-- Live URL: team-task-manager-production-4a3b.up.railway.app
+- Live URL: https://team-task-manager-production-4a3b.up.railway.app
 - GitHub repo: https://github.com/missaarohi/Team-Task-Manager
